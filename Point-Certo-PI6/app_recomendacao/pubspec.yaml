@@ -1,0 +1,28 @@
+name: app_recomendacao
+description: "Projeto de Engenharia - App de Recomendação com IA."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Ajustei para uma versão compatível padrão
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Ícones padrão do iOS
+  cupertino_icons: ^1.0.8
+  
+  # CRUCIAL: Pacote para conectar no seu Node.js
+  http: ^1.0.0
+  
+  # CRUCIAL: Pacote para pegar o GPS (Location Based Service)
+  geolocator: ^10.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
